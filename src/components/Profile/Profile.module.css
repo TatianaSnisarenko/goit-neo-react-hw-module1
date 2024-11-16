@@ -60,10 +60,9 @@
 }
 
 .stats li span:first-child {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .stats li span:last-child {
-  font-size: 1.2em;
-  font-weight: 600;
+  font-weight: bold;
 }

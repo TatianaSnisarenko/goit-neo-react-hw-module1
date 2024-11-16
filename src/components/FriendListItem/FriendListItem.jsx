@@ -4,7 +4,7 @@ import clsx from "clsx";
 export default function FriendListItem({ isOnline, avatar, name }) {
   return (
     <div className={css.item}>
-      <img src={avatar} alt="Avatar" width="48" />
+      <img src={avatar} alt={`${name} avatar`} width="48" />
       <p>{name}</p>
       <p
         className={clsx(css.status, {
